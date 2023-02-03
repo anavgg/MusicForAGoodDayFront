@@ -1,9 +1,12 @@
 .App{
     margin: 0;
     padding: 0;
+    height: 100vh; 
+    width:fit-content;
     background-color: #2E315B;
     background-image: url('./assets/img/background.png'); 
     background-size: cover; 
     background-position: center; 
+    
 
 }
