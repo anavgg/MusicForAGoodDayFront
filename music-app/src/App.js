@@ -1,4 +1,5 @@
 import React from 'react';
+import DeleteButton from './components/atoms/atom-DeleteButton/Atom-DeleteButton';
 
 function App() {
   return (
