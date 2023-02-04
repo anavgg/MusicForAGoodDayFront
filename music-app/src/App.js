@@ -1,10 +1,11 @@
 import React from 'react';
-import DeleteButton from './components/atoms/atom-DeleteButton/Atom-DeleteButton';
+// import UpdateButton from './components/atoms/atom-updateButton/atom-updateButton';
+// import DeleteButton from './components/atoms/atom-deleteButton/atom-deleteButton';
 
 function App() {
   return (
     <div className="App">
-     
+    
     </div>
   );
 }
