@@ -2,21 +2,22 @@ import React from 'react';
 import './atom-songBox.css'
 import DeleteButton from '../atom-DeleteButton/Atom-DeleteButton.jsx'
 import UpdateButton from '../atom-updateButton/Atom-UpdateButton.jsx'
+import heart from '../../../assets/img/icons/heart.svg'
 
 const SongBox = (props) => {
     return <div className="songContainer">
         <div className="cover">
             <img src={props.image} alt="cover"></img>
         </div>
-        <div>
-            <p className="songsName">{props.songName}</p>
-            <p className="artistsName">{props.artistName}</p>
-            <p className="gender">{props.songGender}</p>
+        <div className="text">
+            <p className="songName">{props.songName}Name</p>
+            <p className="artistName">{props.artistName}Artist</p>
+            <p className="gender">{props.songGender}Gender</p>
         </div>
         <div className="coder">
-            <p>Proposed with LOVE by {props.coderName}</p>
+            <p>Proposed with <img src={heart} alt="heart" width="4%"/> by {props.coderName} coder</p>
         </div>
-        <div>
+        <div className="play">
         {/* aquí iría el componente play */}
         </div>
         <div className="optionsContainer">
