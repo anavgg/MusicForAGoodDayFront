@@ -1,11 +1,11 @@
 import React from "react";
-import "../atom-buttomPlay/atom-buttomPlay.css";
+import "./atom-playButtom.css";
 import Play from "../../../assets/img/icons/play.svg";
 
 const PlayButtom = () => {
   return (
-    <button className="buttomPlay">
-      <img src={Play} className="imgPlay" alt="Buttom Play" />
+    <button className="playButtom">
+      <img src={Play} className="imgPlay" alt="Play Buttom" />
     </button>
   );
 };

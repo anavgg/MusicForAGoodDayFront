@@ -3,7 +3,7 @@ import "./atom-songBox.css";
 import DeleteButton from "../atom-DeleteButton/Atom-DeleteButton.jsx";
 import UpdateButton from "../atom-updateButton/atom-updateButton";
 import heart from "../../../assets/img/icons/heart.svg";
-import PlayButtom from "../atom-buttomPlay/Atom-buttomPlay";
+import PlayButtom from "../atom-playButtom/Atom-PlayButtom";
 
 const SongBox = (props) => {
   return (
